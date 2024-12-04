@@ -25,7 +25,7 @@ VALUES
 ('engineer1', 'defaultPassword3', 'engineer', 'Charlie', 'Brown', '1122334455', '1990-07-19', '2020-02-15', 'charlie.brown@example.com'),
 ('technician1', 'defaultPassword4', 'technician', 'Dave', 'Clark', '6677889900', '1995-12-01', '2018-04-20', 'dave.clark@example.com'),
 ('intern1', 'defaultPassword5', 'intern', 'Eve', 'Miller', '4455667788', '2000-10-10', '2023-01-05', 'eve.miller@example.com'),
--- Add more rows to ensure there are at least 20 entries
+('intern2','defaultPassword6', 'intern', 'Elvis', 'James', '5467899000', '1999-01-01', '2021-04-01', 'elvis.james@example.com');
 
 DELIMITER //
 CREATE PROCEDURE AddEmployee (
